@@ -31,3 +31,6 @@ for start and view this project follow the below steps:
 5. open browser and go to address: 
    
    [localhost:8080](http://localhost:8080)
+
+---
+you can follow me at my [twitter](https://twitter.com/amirmazinani_ir) account or visit my website: [amirmazinani.ir](https://amirmazinani.ir)
