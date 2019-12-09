@@ -1,4 +1,4 @@
-# blockchain-voting
+# blockchain-based e-voting system
 this is a blockchain-based e-voting system
 
 this app is an e-voting system that has 3 main work:
