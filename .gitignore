@@ -80,7 +80,9 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+
+# This line will be deleted after putting the images and fonts in the correct path
+# dist
 
 # Gatsby files
 .cache/
@@ -102,3 +104,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# output of compiling smart contract
+build
