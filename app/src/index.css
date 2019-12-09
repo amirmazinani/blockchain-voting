@@ -1,0 +1,92 @@
+:root {
+    --color1: #1b222c;
+    --color2: #fbfbfd;
+    --color3: #f5f4fa;
+}
+@font-face {
+    font-family: "fontello";
+    src: url('/fonts/fontello/font.eot#iefix') format('embedded-opentype'), url('/fonts/fontello/font.woff') format('woff'), url('/fonts/fontello/font.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'vazir';
+    src: url('/fonts/staticfonts/vazir.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'vazir';
+    src: url('/fonts/staticfonts/vazir.ttf') format('truetype');
+    font-weight: 700;
+}
+
+body, button, input, textarea, select, option {
+    font-family: 'vazir', tahoma, sans-serif !important;
+}
+
+::placeholder {
+    color: var(--gray-5);
+}
+.-d-l::placeholder {
+    text-align: right;
+}
+
+:focus {
+    outline: none;
+    border-color: var(--gray-5);
+}
+
+body {
+    background-color: var(--color3);
+    color: var(--color1);
+}
+
+.-c-1 {
+    color: var(--color1);
+}
+
+.-c-2 {
+    color: var(--color2);
+}
+
+.-b-c-1 {
+    background-color: var(--color1);
+}
+
+.-b-c-2 {
+    background-color: var(--color2);
+}
+
+.-brd-r-40 {
+    border-radius: 40px;
+}
+
+.-title {
+    font-size: 120%;
+    /* font-variation-settings: 'wght' 600, 'KASH' 10; */
+}
+
+.-h-40px {
+    height: 40px;
+}
+
+.-h-50px {
+    height: 50px;
+}
+
+.-fnt-s-smallest{
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+/* nav */
+
+.nav {
+    width: 90px;
+}
+
+.nav .nav_button {
+    filter: invert(1) opacity(0.5);
+}
+.nav .nav_button.active {
+    filter: invert(1);
+}
