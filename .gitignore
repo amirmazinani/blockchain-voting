@@ -107,3 +107,5 @@ typings/
 
 # output of compiling smart contract
 build
+
+package-lock.json
